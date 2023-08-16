@@ -1,0 +1,20 @@
+.user-album {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 250px;
+    height: 120px;
+
+    &  h2 {
+        margin-bottom: 15px;
+        font-size: 24px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+}
+
